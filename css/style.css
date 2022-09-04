@@ -9,13 +9,15 @@ font-size: 90px;
 }
 
 h2{
+ font-size: 62px;
  margin: 0%;
  color: #272142;
 }
 p{
 font-family: 'Poppins', sans-serif;
 font-weight:normal;
-line-height: 3;
+line-height:2;
+font-size: 16px;
 }
 
 .intro{
@@ -54,4 +56,25 @@ a{
 a:hover{
 color: #272142;
 text-decoration: underline;
+}
+
+.project-description{
+    padding: 120px 60px;
+}
+
+@media (max-width: 900px){
+h1{
+font-size: 44px;
+line-height: 1.5;
+}
+h2{
+font-size: 64px;
+}
+.intro{
+ padding: 80px 20px;
+}
+.project-description{
+padding: 0;
+text-align: center;
+}
 }
