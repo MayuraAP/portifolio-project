@@ -81,6 +81,11 @@ text-decoration: underline;
     padding: 120px 60px;
 }
 
+.contact-container{
+padding:110px 20px;
+text-align: center;
+}
+
 .content-container{
 padding: 110px 20px;
 }
