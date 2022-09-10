@@ -21,12 +21,16 @@ line-height: 80px;
 
 .about-section h2{
 font-size: 18px;
-font-family: 'Poppins', sans-serif;
+font-family:'Poppins', sans-serif;
 font-weight: normal;
 }
 
 .about-section{
-    padding: 160px 20px;
+padding: 160px 20px;
+}
+
+.about-section-content{
+margin: 30px;
 }
 p{
 font-family: 'Poppins', sans-serif;
@@ -77,13 +81,37 @@ text-decoration: underline;
     padding: 120px 60px;
 }
 
+.content-container{
+padding: 110px 20px;
+}
+.content h1{
+    font-size: 47px;
+    line-height: 80px;
+    text-align: center;
+    font-family:'Poppins', sans-serif;
+
+}
+.content h2{
+font-size: 18px;
+font-family:'Poppins', sans-serif;
+}
+
+.content h3{
+    font-size: 24px;
+    line-height: 1.5;
+    margin: 20px 0 0;
+    font-family:'Poppins', sans-serif;
+}
+ .content p{
+    font-size: 15px;
+ }
 @media (max-width: 900px){
 h1{
 font-size: 44px;
 line-height: 56px;
 }
 h2{
-font-size: 64px;
+font-size: 44px;
 }
 .intro{
  padding: 80px 20px;
@@ -91,8 +119,11 @@ font-size: 64px;
 .project-description{
 padding: 0;
 text-align: center;
-}.about-section {
-text-align: center;
-padding: 0;
 }
+
+.about-section{
+text-align: center;
+padding: 0%;
+}
+
 }
