@@ -88,6 +88,7 @@ text-align: center;
 
 .content-container{
 padding: 110px 20px;
+text-align: center;
 }
 .content h1{
     font-size: 47px;
@@ -110,6 +111,9 @@ font-family:'Poppins', sans-serif;
  .content p{
     font-size: 15px;
  }
+
+
+ 
 @media (max-width: 900px){
 h1{
 font-size: 44px;
