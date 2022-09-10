@@ -72,6 +72,9 @@ a{
  text-decoration: none;
 }
 
+.text-center{
+    font-size: 25px;
+}
 a:hover{
 color: #272142;
 text-decoration: underline;
